@@ -1,0 +1,189 @@
+
+
+
+
+/* :root{
+    --azulOscuro: #001230;
+    --negro: rgb(37, 35, 44);
+    --blanco: #ffffff;
+    --amarillo: #ecf95c;
+    --verder:rgb(26, 221, 26);
+} */
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+}
+.titulo{
+    text-align: center;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 4px solid  var(--blanco);
+    padding: 40px;       
+    border-radius: 10px;
+    margin-top: 20px;
+
+
+}
+
+/* .bot1{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding: 10px;
+    background-color:  var(--blanco);
+    color:rgb(21, 21, 68) ;
+    border-radius: 10px;
+} */
+
+.ofrenda, .concepto, .fecha{
+   
+    height: 30px;
+    border: 2px  var(--blanco) solid;
+    border-radius: 10px;
+    
+}
+a , .volver{
+    width: 200px;    
+    padding: 15px;
+    background-color:  var(--blanco) ;
+    color:rgb(21, 21, 68) ;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+}
+/* #borrar{
+    padding: 7px;
+    width: 70px;
+    background-color:  var(--blanco);
+    color:rgb(21, 21, 68) ;
+    border-radius: 10px;
+} */
+
+.ti-fecha{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.ti-ofrenda{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.contenVentas{
+   width: 85%;
+    text-align: center;
+}
+
+.tabla{
+    width: 90%;
+    margin-top: 20px ;
+    padding: 10px;
+    border: solid 4px  var(--blanco);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.suma_total, .suma_gastos, .suma_caja, .propinas{
+    font-size: 3rem;
+    border: 2px solid  var(--blanco);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    
+}
+/* .foter{
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    color: lawngreen;
+    border: solid 4px  var(--blanco);
+    border-radius: 10px;
+    padding: 20px;
+}    */
+.total_caja{
+    border: solid 4px  var(--blanco);
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.formu-edit{
+    display: flex;
+    border: 4px solid  var(--blanco);
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.conten-edit{
+    display: flex;
+    justify-content: center;
+}
+
+/* .fecha-e, .ofrenda-e, .concepto-e, .gastos-e{
+    font-size: 1.2rem;
+    color: yellow;
+    padding: 7px;
+    border: 2px solid  var(--blanco);
+    border-radius: 10px;
+    width: 100%
+} */
+
+.mes{
+    background-color:  var(--blanco);
+    color: rgb(21, 21, 68);
+    padding: 5px;
+    border-radius: 7px;
+}
+/* .bot-meses{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} */
+.nuevo{
+    height: 30px;
+    width: 50%;
+    background-color: var(--negro);
+    color:  var(--blanco);
+    border-radius: 10px;
+    margin-top: 10px;
+    border: solid  var(--blanco) 2px;
+    margin-left: 30px;
+}
+.meses{
+    height: 30px;
+    width: 100%;
+    background-color: var(--negro);
+    color:  var(--blanco);
+    border-radius: 10px;
+    margin-top: 10px;
+    border: solid  var(--blanco) 2px;
+  
+}
+
+.totCaja{
+    margin-top: 20px;
+   
+    display: flex;
+    width: 90%;
+    color: lawngreen;
+    border: solid 4px  var(--blanco);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
